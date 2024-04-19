@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+#cabecalho{
+    height: 100px;
+    background-color: rgb(104, 0, 0);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#menu{
+    height: 1100px;
+    width: 300px;
+    background-color: rgb(40, 67, 0);
+    float: left;
+    margin-left: 37px;
+    margin-top: 10px;
+}
+
+#conteudo{
+    height: 1100px;
+    width: 800px;
+    background-color: lightgray;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#lado{
+    height: 1100px;
+    width: 300px;
+    background-color: rgb(40, 67, 0);
+    float: right;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-block-end: 5px;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(104, 0, 0);
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
